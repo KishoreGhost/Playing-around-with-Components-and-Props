@@ -42,8 +42,6 @@ button{
   cursor: pointer;
 }
 
-
-
 .column {
   float: left;
   width: 50%;
@@ -51,6 +49,7 @@ button{
 }
 
 .column img {
+  border: 2px solid black;
   margin-top: 12px;
   width:100%;
   cursor:pointer;
@@ -59,4 +58,8 @@ button{
 h1{
   text-align: center;
   padding: 32px;
+}
+
+.footer-content{
+  text-align: center;
 }
